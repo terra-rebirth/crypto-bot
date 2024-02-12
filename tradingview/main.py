@@ -5,6 +5,8 @@ import os
 
 from flask import Flask, jsonify, request
 from tradingview_ta import get_multiple_analysis
+#from werkzeug.urls import url_quote
+
 
 app = Flask(__name__)
 
