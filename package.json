@@ -23,7 +23,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/opzlabs/crypto-bot.git"
+    "url": "https://github.com/terra-rebirth/crypto-bot.git"
   },
   "keywords": [
     "Binance",
@@ -33,9 +33,9 @@
   "author": "Chris Lee <git@chrislee.kr>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/opzlabs/crypto-bot/issues"
+    "url": "https://github.com/terra-rebirth/crypto-bot/issues"
   },
-  "homepage": "https://github.com/opzlabs/crypto-bot#readme",
+  "homepage": "https://github.com/terra-rebirth/crypto-bot#readme",
   "dependencies": {
     "axios": "^0.27.2",
     "bcryptjs": "^2.4.3",

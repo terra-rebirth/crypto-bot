@@ -41,7 +41,7 @@ class Header extends React.Component {
 
             <div className='header-column-icon-wrapper github-wrapper'>
               <a
-                href='https://github.com/opzlabs/crypto-bot'
+                href='https://github.com/terra-rebirth/crypto-bot'
                 target='_blank'
                 className='btn btn-sm p-0 pl-1 pr-1'
                 rel='noreferrer'>

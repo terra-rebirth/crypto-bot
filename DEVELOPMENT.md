@@ -15,7 +15,7 @@ In addition, you will need Docker Compose. To install Docker Compose, [refer ste
 Once you've installed Node.js and Docker Compose, open Terminal and run the following:
 
 ```sh
-git clone https://github.com/opzlabs/crypto-bot
+git clone https://github.com/terra-rebirth/crypto-bot
 npm install
 docker-compose up -d --build
 ```
