@@ -52,7 +52,7 @@ services:
       mode: global
 
   binance-bot:
-    image: chrisleekr/binance-trading-bot:latest
+    image: terrarebirth/crypto-bot:latest
     networks:
       - ingress
     environment:
