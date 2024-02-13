@@ -2,7 +2,7 @@ version: '3.7'
 
 services:
   binance-bot:
-    container_name: binance-bot
+    container_name: crypto-bot
     image: terrarebirth/crypto-bot:latest
     networks:
       - internal
@@ -24,7 +24,7 @@ services:
 
   tradingview:
     container_name: tradingview
-    image: terrarebirth/crypto-bot:tradingview
+    image: terrarebirth/tradingview:latest
     networks:
       - internal
     restart: unless-stopped

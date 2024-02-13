@@ -323,6 +323,10 @@ Or use the frontend to adjust configurations after launching the application.
    docker-compose -f docker-compose.db.yml up -d --build
    ```
 
+   ```
+   docker build -t terrarebirth/crypto-bot:latest .
+   ```
+
 3. Open browser `http://0.0.0.0:8080` to see the frontend
 
    - When launching the application, it will notify public URL to the Slack.
