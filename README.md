@@ -310,16 +310,19 @@ Or use the frontend to adjust configurations after launching the application.
 
    ```bash
    docker-compose -f docker-compose.server.yml pull
-
-   # Create external network and then start
-   docker network create internal
+   # --start run
    docker-compose -f docker-compose.server.yml up -d
+   # --stop run
+   docker-compose -f docker-compose.server.yml down
    ```
 
    Or if want development/test mode, then run below commands:
 
    ```bash
+   # --start run
    docker-compose up -d --build
+   # --stop run
+     docker-compose down
    ```
 
    ```

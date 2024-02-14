@@ -16,7 +16,7 @@ services:
       - BINANCE_REDIS_PORT=6379
       - BINANCE_REDIS_PASSWORD=secretp422
     ports:
-      - 8080:80
+      - 8088:80
     logging:
       driver: 'json-file'
       options:
