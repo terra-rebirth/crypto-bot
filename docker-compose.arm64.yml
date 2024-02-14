@@ -25,4 +25,8 @@ services:
 
   networks:
     internal:
-      external: true # This indicates that the network already exists externally
+      external: true
+        # This indicates that the network already exists externally
+
+        # Create external network
+      ## docker network create internal
