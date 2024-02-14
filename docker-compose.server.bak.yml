@@ -66,5 +66,4 @@ volumes:
   redis_data:
   mongo_data:
 
-    # Create external network
-    ## docker network create internal
+    # docker network create internal
