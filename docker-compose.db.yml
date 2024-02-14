@@ -58,9 +58,7 @@ services:
 
 networks:
   internal:
-    driver: bridge
-    # driver_opts:
-    #     com.docker.network.driver.mtu: 1442
+    external: true # This indicates that the network already exists externally
 
 volumes:
   redis_data:

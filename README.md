@@ -310,6 +310,9 @@ Or use the frontend to adjust configurations after launching the application.
 
    ```bash
    docker-compose -f docker-compose.server.yml pull
+
+   # Create external network and then start
+   docker network create internal
    docker-compose -f docker-compose.server.yml up -d
    ```
 
@@ -325,10 +328,6 @@ Or use the frontend to adjust configurations after launching the application.
 
    ```
    docker build -t terrarebirth/crypto-bot:latest .
-   ```
-
-   ```
-   docker network  external
    ```
 
 3. Open browser `http://0.0.0.0:8080` to see the frontend
