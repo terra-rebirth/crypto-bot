@@ -5,8 +5,8 @@ services:
     container_name: binance-bot
     build:
       context: ./
-      target: dev-stage
-      # target: production-stage
+      # target: dev-stage
+      target: production-stage
     networks:
       - internal
     volumes:
@@ -27,7 +27,7 @@ services:
       - BINANCE_TRADINGVIEW_HOST=tradingview
       - BINANCE_TRADINGVIEW_PORT=8082
     ports:
-      - 8080:80
+      - 8088:80
     logging:
       driver: 'json-file'
       options:

@@ -59,10 +59,8 @@ services:
   networks:
     internal:
       external: true # This indicates that the network already exists externally
+      # Create external network  docker network create internal
 
   volumes:
     redis_data:
     mongo_data:
-
-      # Create external network
-      ## docker network create internal
