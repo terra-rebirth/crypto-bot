@@ -1,0 +1,17 @@
+[Unit]
+Description = Tradingview api in python # <Your service description here>
+After = network.target # Assuming you want to start after network interfaces are made available
+
+[Service]
+Type = simple
+WorkingDirectory=/home/ubuntu/weather
+ExecStart = /././python3 /././main.py # <Path of the script you want to run>
+User = chaiya # User to run the script as
+Group = chaiya # Group to run the script as
+Restart = on-failure # Restart when there are errors
+SyslogIdentifier = Tradingview_ta # <Name of logs for the service>
+RestartSec = 5
+TimeoutStartSec = infinity
+
+[Install]
+WantedBy = multi-user.target # Make it accessible to other users

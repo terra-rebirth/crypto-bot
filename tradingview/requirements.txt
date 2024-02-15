@@ -1,6 +1,11 @@
-tradingview-ta==3.2.10
-Flask==2.0.2
-waitress==2.1.1
-urllib3==1.26.7
-paste==3.5.0
+certifi==2020.12.5
+chardet==4.0.0
+idna==2.10
+protobuf==3.14.0
+pybind11==2.6.2
+requests==2.25.1
+six==1.15.0
+tradingview-ta==3.2.2
+urllib3==1.26.3
 colorlog==6.5.0
+Flask==2.0.2

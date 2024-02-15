@@ -5,13 +5,11 @@ import os
 
 from flask import Flask, jsonify, request
 from tradingview_ta import get_multiple_analysis
-#from werkzeug.urls import url_quote
-
 
 app = Flask(__name__)
 
 logger = logging.getLogger('')
-logger.setLevel(os.environ.get("BINANCE_TRADINGVIEW_LOG_LEVEL", logging.DEBUG))
+logger.setLevel(os.environ.get("BINANCE_TRADINGVIEW_LOG_LEVEL", logging.INFO))
 sh = logging.StreamHandler(sys.stdout)
 sh.setFormatter(colorlog.ColoredFormatter(
     '%(log_color)s [%(asctime)s] %(levelname)s [%(filename)s.%(funcName)s:%(lineno)d] %(message)s', datefmt='%a, %d %b %Y %H:%M:%S'))
