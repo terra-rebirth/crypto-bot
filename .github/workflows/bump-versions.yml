@@ -20,10 +20,10 @@ jobs:
           PACKAGE_VERSION=$(npm version patch -m "bump: update version to %s [skip ci]")
           echo "patch $GITHUB_REF_NAME bump version $PACKAGE_VERSION for $GITHUB_ACTOR $GITHUB_REF"
           sed -i "/## Release/a \
-          ### [Cripto-bot release version:$PACKAGE_VERSION dated:$(date)](https://github.com/terra-rebirth/crypto-bot/releases/tag/$PACKAGE_VERSION) \
+          ### [Cripto-bot release version: $PACKAGE_VERSION dated: $(date)](https://github.com/terra-rebirth/crypto-bot/releases/tag/$PACKAGE_VERSION) \
           " README.md
           echo >> RELEASE.md \
-          && echo "### [Cripto-bot release version:$PACKAGE_VERSION dated:$(date)](https://github.com/terra-rebirth/crypto-bot/releases/tag/$PACKAGE_VERSION)" >>RELEASE.md \
+          && echo "### [Cripto-bot release version: $PACKAGE_VERSION dated: $(date)](https://github.com/terra-rebirth/crypto-bot/releases/tag/$PACKAGE_VERSION)" >>RELEASE.md \
           && echo >> RELEASE.md
           sed -i '/# RELEASE/a Text to add under # RELEASE' RELEASE.md
           git add .
