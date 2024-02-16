@@ -30,6 +30,7 @@ incurred directly or indirectly by using this code. Read
 [disclaimer](#disclaimer) before using this code.**
 
 # RELEASE
+### [Cripto-bot release version:v0.0.116 dated:Fri Feb 16 16:06:43 UTC 2024](https://github.com/terra-rebirth/crypto-bot/releases/tag/v0.0.116) 
 [# Cripto-bot release version:$PACKAGE_VERSION dated:$(date)](https://github.com/terra-rebirth/crypto-bot/releases/tag/$PACKAGE_VERSION) 
 
 
