@@ -29,6 +29,8 @@ This is a test project. I am just testing my code.
 incurred directly or indirectly by using this code. Read
 [disclaimer](#disclaimer) before using this code.**
 
+# RELEASE
+
 **Before updating the bot, make sure to record the last buy price in the note. It may lose the configuration or last buy price records.**
 
 ## How it works
@@ -408,5 +410,3 @@ Thanks to all contributors :heart: [Click to see our heroes](https://github.com/
 I give no warranty and accepts no responsibility or liability for the accuracy or the completeness of the information and materials contained in this project. Under no circumstances will I be held responsible or liable in any way for any claims, damages, losses, expenses, costs or liabilities whatsoever (including, without limitation, any direct or indirect damages for loss of profits, business interruption or loss of information) resulting from or arising directly or indirectly from your use of or inability to use this code or any code linked to it, or from your reliance on the information and material on this code, even if I have been advised of the possibility of such damages in advance.
 
 **So use it at your own risk!**
-# crypto-bot
-# crypto-bot
