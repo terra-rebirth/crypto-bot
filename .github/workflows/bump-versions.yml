@@ -19,15 +19,13 @@ jobs:
           git remote set-url origin https://x-access-token:${{secrets.GIT_CI_PASSWORD }}@github.com/${{ github.repository }}
           PACKAGE_VERSION=$(npm version patch -m "bump: update version to %s [skip ci]")
           echo "patch $GITHUB_REF_NAME bump version $PACKAGE_VERSION for $GITHUB_ACTOR $GITHUB_REF"
+          echo "## version:$PACKAGE_VERSION issued date $(date)" >>RELEASE.md
           git add .
           git commit -m 'skip ci'
           git push
           git pull --rebase origin main
           git push origin $PACKAGE_VERSION
           echo "PACKAGE_VERSION=$PACKAGE_VERSION" >> "$GITHUB_ENV"
-      - name: Note into RELEASE.md
-        run: |
-          echo "## version:$PACKAGE_VERSION issued date $(date)" >>RELEASE.md
       - name: Trigger release workflow
         uses: peter-evans/repository-dispatch@v1
         with:
