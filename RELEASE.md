@@ -10,3 +10,6 @@ link:(https://github.com/terra-rebirth/crypto-bot/releases/tag/v0.0.110)
 
 [https://github.com/terra-rebirth/crypto-bot/releases/tag/v0.0.111](https://github.com/terra-rebirth/crypto-bot/releases/tag/v0.0.111)
 
+
+[## Cripto-bot release version:v0.0.112 dated:Fri Feb 16 12:00:50 UTC 2024](https://github.com/terra-rebirth/crypto-bot/releases/tag/v0.0.112)
+
