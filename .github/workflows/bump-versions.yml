@@ -16,7 +16,7 @@ jobs:
           git config --global user.name "$GITHUB_ACTOR"
           PACKAGE_VERSION=$(npm version patch -m "bump: update version to %s [skip ci]")
           echo "patch $GITHUB_REF_NAME bump version $PACKAGE_VERSION for $GITHUB_ACTOR"
-          echo "::set-output name=PACKAGE_VERSION::$PACKAGE_VERSION"
+          echo "PACKAGE_VERSION=$PACKAGE_VERSION" >>GITHUB_OUTPUT
       - name: Trigger release workflow
         uses: peter-evans/repository-dispatch@v1
         with:
