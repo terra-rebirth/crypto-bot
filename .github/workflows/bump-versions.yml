@@ -19,7 +19,7 @@ jobs:
           git remote set-url origin https://x-access-token:${{secrets.GIT_CI_PASSWORD }}@github.com/${{ github.repository }}
           PACKAGE_VERSION=$(npm version patch -m "bump: update version to %s [skip ci]")
           echo "patch $GITHUB_REF_NAME bump version $PACKAGE_VERSION for $GITHUB_ACTOR $GITHUB_REF"
-          sed -i "/# RELEASE/a \
+          sed -i "/## Release/a \
           ### [Cripto-bot release version:$PACKAGE_VERSION dated:$(date)](https://github.com/terra-rebirth/crypto-bot/releases/tag/$PACKAGE_VERSION) \
           " README.md
           echo >> RELEASE.md \

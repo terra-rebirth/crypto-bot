@@ -19,8 +19,6 @@
 
 This is a test project. I am just testing my code.
 
-[## Cripto-bot release version:v0.0.112 dated:Fri Feb 16 12:00:50 UTC 2024](https://github.com/terra-rebirth/crypto-bot/releases/tag/v0.0.112)
-
 ## Warnings
 
 **I cannot guarantee whether you can make money or not.**
@@ -29,9 +27,7 @@ This is a test project. I am just testing my code.
 incurred directly or indirectly by using this code. Read
 [disclaimer](#disclaimer) before using this code.**
 
-# RELEASE
-### [Cripto-bot release version:v0.0.116 dated:Fri Feb 16 16:06:43 UTC 2024](https://github.com/terra-rebirth/crypto-bot/releases/tag/v0.0.116) 
-[# Cripto-bot release version:$PACKAGE_VERSION dated:$(date)](https://github.com/terra-rebirth/crypto-bot/releases/tag/$PACKAGE_VERSION) 
+## Release
 
 
 **Before updating the bot, make sure to record the last buy price in the note. It may lose the configuration or last buy price records.**
