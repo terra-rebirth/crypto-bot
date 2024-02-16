@@ -19,6 +19,8 @@
 
 This is a test project. I am just testing my code.
 
+[## Cripto-bot release version:v0.0.112 dated:Fri Feb 16 12:00:50 UTC 2024](https://github.com/terra-rebirth/crypto-bot/releases/tag/v0.0.112)
+
 ## Warnings
 
 **I cannot guarantee whether you can make money or not.**
