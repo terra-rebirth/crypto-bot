@@ -15,18 +15,17 @@ const runErrorHandler = logger => {
   process.on('uncaughtException', async err => {
     logger.error({ err });
     const githubIssuesLink =
-      'https://github.com/chrisleekr/binance-trading-bot/issues/new' +
+      'https://github.com/terra-rebirth/crypto-bot/issues/new' +
       '?assignees=&labels=bug&template=bug_report.md&title=';
     slack.sendMessage(
       `Uncaught Exception:\n` +
-        `If you see this, kindly report it to: ${githubIssuesLink}\n` +
-        `Code: ${err.code}\n` +
-        `Message:\`\`\`${err.message}\`\`\`\n` +
-        `${
-          config.get('featureToggle.notifyDebug')
-            ? `Stack:\`\`\`${err.stack}\`\`\`\n`
-            : ''
-        }`,
+      `If you see this, kindly report it to: ${githubIssuesLink}\n` +
+      `Code: ${err.code}\n` +
+      `Message:\`\`\`${err.message}\`\`\`\n` +
+      `${config.get('featureToggle.notifyDebug')
+        ? `Stack:\`\`\`${err.stack}\`\`\`\n`
+        : ''
+      }`,
       { apiLimit: getAPILimit(logger) }
     );
   });
@@ -53,14 +52,13 @@ const handleError = (logger, job, err) => {
   } else {
     slack.sendMessage(
       `Execution failed:\n` +
-        `Job: ${job}\n` +
-        `Code: ${err.code}\n` +
-        `Message:\`\`\`${err.message}\`\`\`\n` +
-        `${
-          config.get('featureToggle.notifyDebug')
-            ? `Stack:\`\`\`${err.stack}\`\`\`\n`
-            : ''
-        }`,
+      `Job: ${job}\n` +
+      `Code: ${err.code}\n` +
+      `Message:\`\`\`${err.message}\`\`\`\n` +
+      `${config.get('featureToggle.notifyDebug')
+        ? `Stack:\`\`\`${err.stack}\`\`\`\n`
+        : ''
+      }`,
       { apiLimit: getAPILimit(logger) }
     );
   }

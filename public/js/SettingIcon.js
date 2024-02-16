@@ -155,8 +155,8 @@ class SettingIcon extends React.Component {
       target.type === 'checkbox'
         ? target.checked
         : target.type === 'number'
-        ? +target.value
-        : target.value;
+          ? +target.value
+          : target.value;
     const stateKey = target.getAttribute('data-state-key');
 
     const { configuration } = this.state;
@@ -298,18 +298,17 @@ class SettingIcon extends React.Component {
                                     <div>
                                       <i
                                         style={{ fontSize: '0.4em' }}
-                                        className={`fas fa-circle align-middle mr-2 fa-fw ${
-                                          exchangeSymbols[option].status ===
-                                          'TRADING'
+                                        className={`fas fa-circle align-middle mr-2 fa-fw ${exchangeSymbols[option].status ===
+                                            'TRADING'
                                             ? 'text-success blink'
                                             : 'text-danger'
-                                        }`}></i>
+                                          }`}></i>
                                       <Highlighter search={text}>
                                         {option}
                                       </Highlighter>
                                     </div>
                                     {exchangeSymbols[option].status ===
-                                    'TRADING' ? (
+                                      'TRADING' ? (
                                       <span className='badge badge-success badge-pill'>
                                         Active
                                       </span>

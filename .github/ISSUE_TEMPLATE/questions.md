@@ -9,7 +9,7 @@ assignees: ''
 
 <!-- Have you checked the Troubleshooting wiki page? -->
 <!-- Please refer the wiki page whether other traders already got answer for you -->
-<!-- https://github.com/chrisleekr/binance-trading-bot/wiki/Troubleshooting -->
+<!-- https://github.com/terra-rebirth/crypto-bot/wiki/Troubleshooting -->
 
 ## Version
 

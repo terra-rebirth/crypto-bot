@@ -11,11 +11,11 @@ assignees: ''
 <!-- You don't need to answer these questions in the issue. -->
 
 <!-- Have you searched for your issues? Other traders may already have the answer for you. -->
-<!-- https://github.com/chrisleekr/binance-trading-bot/issues -->
+<!-- https://github.com/terra-rebirth/crypto-bot/issues -->
 
 <!-- Have you checked the Troubleshooting wiki page? -->
 <!-- Please refer the wiki page whether other traders already got answer for you -->
-<!-- https://github.com/chrisleekr/binance-trading-bot/wiki/Troubleshooting -->
+<!-- https://github.com/terra-rebirth/crypto-bot/wiki/Troubleshooting -->
 
 ## Version
 

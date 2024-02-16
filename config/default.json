@@ -90,7 +90,7 @@
           "maxOpenTrades": 5
         },
         "tradingView": {
-          "interval": "",
+          "interval": "1d",
           "useOnlyWithin": 5,
           "ifExpires": "ignore"
         },

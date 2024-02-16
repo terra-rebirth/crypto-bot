@@ -15,7 +15,7 @@ class Footer extends React.Component {
     // Make a request for a user with a given ID
     axios
       .get(
-        'https://raw.githubusercontent.com/chrisleekr/binance-trading-bot/master/package.json'
+        'https://raw.githubusercontent.com/terra-rebirth/crypto-bot/master/package.json'
       )
       .then(response => {
         // handle success
@@ -43,7 +43,7 @@ class Footer extends React.Component {
           <div className='footer-column'>
             Latest Version:
             <a
-              href='https://github.com/chrisleekr/binance-trading-bot/releases'
+              href='https://github.com/terra-rebirth/crypto-bot/releases'
               target='_blank'
               className='ml-1'
               rel='noreferrer'>

@@ -51,10 +51,10 @@ class APIError extends React.Component {
               configuration. And then try to launch the bot again.
               <br />
               <a
-                href='https://github.com/chrisleekr/binance-trading-bot/wiki/Install#how-to-install'
+                href='https://github.com/terra-rebirth/crypto-bot/wiki/Install#how-to-install'
                 target='_blank'
                 rel='noreferrer'>
-                https://github.com/chrisleekr/binance-trading-bot/wiki/Install#how-to-install
+                https://github.com/terra-rebirth/crypto-bot/wiki/Install#how-to-install
               </a>
               <br />
               <br />
