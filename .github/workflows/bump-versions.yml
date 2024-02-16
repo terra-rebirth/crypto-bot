@@ -2,6 +2,9 @@ name: Bump versions
 
 on: push #[workflow_dispatch]
 
+env:
+  PACKEGE_VERSION:"v0.0.0"
+
 jobs:
   bump-versions:
     name: Bump versions
