@@ -30,6 +30,8 @@ incurred directly or indirectly by using this code. Read
 [disclaimer](#disclaimer) before using this code.**
 
 # RELEASE
+[# Cripto-bot release version:$PACKAGE_VERSION dated:$(date)](https://github.com/terra-rebirth/crypto-bot/releases/tag/$PACKAGE_VERSION) 
+
 
 **Before updating the bot, make sure to record the last buy price in the note. It may lose the configuration or last buy price records.**
 
