@@ -1,6 +1,6 @@
 name: Bump versions
 
-on: push #[workflow_dispatch]
+on: [workflow_dispatch]
 
 jobs:
   bump-versions:
