@@ -15,6 +15,8 @@ jobs:
           git config --global user.email "${{ secrets.GIT_CI_EMAIL }}"
           git config --global user.name "$GITHUB_ACTOR"
           PACKAGE_VERSION=$(npm version patch -m "bump: update version to %s [skip ci]")
+          git push https://$GITHUB_ACTOR:${{ secrets.GIT_CI_PASSWORD }}@${{ secrets.GIT_REPO_DOMAIN }}/terra-rebirth/crypto-bot HEAD:$GITHUB_REF
+          git push https://$GITHUB_ACTOR:${{ secrets.GIT_CI_PASSWORD }}@${{ secrets.GIT_REPO_DOMAIN }}/terra-rebirth/crypto-bot $PACKAGE_VERSION
           echo "patch $GITHUB_REF_NAME bump version $PACKAGE_VERSION for $GITHUB_ACTOR"
           echo "PACKAGE_VERSION=$PACKAGE_VERSION" >>GITHUB_OUTPUT
       - name: Trigger release workflow
