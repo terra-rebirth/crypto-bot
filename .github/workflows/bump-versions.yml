@@ -22,9 +22,7 @@ jobs:
         run: |
           echo "patch $GITHUB_REF_NAME bump version $PACKAGE_VERSION for $GITHUB_ACTOR $GITHUB_REF"
           git tag $PACKAGE_VERSION
-          git add .
-          git commit -m "bumb-version $PACKAGE_VERSION"
-          git push
+          git push origin $PACKAGE_VERSION
       - name: Trigger release workflow
         uses: peter-evans/repository-dispatch@v1
         with:
