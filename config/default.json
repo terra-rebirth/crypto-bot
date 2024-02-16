@@ -63,8 +63,7 @@
       "symbols": [
         "BTCUSDT",
         "ETHUSDT",
-        "ETHBTC",
-        "XRPBTC"
+        "TRXUSDT"
       ],
       "botOptions": {
         "authentication": {
@@ -72,14 +71,14 @@
           "lockAfter": 120
         },
         "autoTriggerBuy": {
-          "enabled": false,
+          "enabled": true,
           "triggerAfter": 20,
           "conditions": {
             "whenLessThanATHRestriction": true,
             "afterDisabledPeriod": true,
             "tradingView": {
-              "overrideInterval": "",
-              "whenStrongBuy": true,
+              "overrideInterval": "1h",
+              "whenStrongBuy": false,
               "whenBuy": true
             }
           }
@@ -107,8 +106,8 @@
         "gridTrade": [
           {
             "triggerPercentage": 1,
-            "stopPercentage": 1.02,
-            "limitPercentage": 1.021,
+            "stopPercentage": 1.015,
+            "limitPercentage": 1.016,
             "minPurchaseAmount": -1,
             "minPurchaseAmounts": {},
             "maxPurchaseAmount": -1,
@@ -126,7 +125,7 @@
           "restrictionPercentage": 0.9
         },
         "tradingView": {
-          "whenStrongBuy": true,
+          "whenStrongBuy": false,
           "whenBuy": true
         }
       },
@@ -155,7 +154,7 @@
           }
         },
         "conservativeMode": {
-          "enabled": false,
+          "enabled": true,
           "factor": 0.5
         }
       },
