@@ -25,8 +25,8 @@ jobs:
   docker-images:
     name: Build/Push development docker image
     if:
-      github.repository == 'chrisleekr/binance-trading-bot' && github.ref ==
-      'refs/heads/master'
+      github.repository == 'terra-rebirth/crypto-bot' && github.ref ==
+      'refs/heads/main'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
