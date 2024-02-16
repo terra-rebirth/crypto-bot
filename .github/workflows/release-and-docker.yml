@@ -76,5 +76,4 @@ jobs:
           platforms: linux/amd64,linux/arm/v7,linux/arm64
           push: true
           tags: |
-            rerrarebirth/crypto-bot:tradingview
-            terrarebirth/crypto-bot:tradingview-${{ env.PACKAGE_VERSION }}
+            terrarebirth/tradingview-${{ env.PACKAGE_VERSION }}
