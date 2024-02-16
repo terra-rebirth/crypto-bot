@@ -8,12 +8,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout source code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GIT_CI_PASSWORD }}
       - id: bump-version
         name: Bump Version (Patch)
         run: |
           git config --global user.email "${{ secrets.GIT_CI_EMAIL }}"
           git config --global user.name "$GITHUB_ACTOR"
+          git remote set-url origin https://x-access-token:${{secrets.GIT_CI_PASSWORD }}@github.com/${{ github.repository }}
           PACKAGE_VERSION=$(npm version patch -m "bump: update version to %s [skip ci]")
           echo "patch $GITHUB_REF_NAME bump version $PACKAGE_VERSION for $GITHUB_ACTOR $GITHUB_REF"
           echo "PACKAGE_VERSION=$PACKAGE_VERSION" >>GITHUB_OUTPUT
