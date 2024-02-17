@@ -16,7 +16,7 @@ jobs:
         with:
           tag_name: ${{ github.event.client_payload.ref }}
           name:
-            '<Update release name for ${{ github.event.client_payload.ref }}>'
+            'Crypto-bot ${{ github.event.client_payload.ref }}'
           draft: true
           prerelease: false
           generate_release_notes: true
