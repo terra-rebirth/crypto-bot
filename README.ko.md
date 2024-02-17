@@ -329,7 +329,7 @@
 
 ## 기부
 
-이 프로젝트가 도움이 되셨다면, 개발자에게 작은 [기부](https://github.com/terra-rebirth/crypto-bot/blob/main/DONATIONS.md)를 하실 수 있습니다.
+이 프로젝트가 도움이 되셨다면, 개발자에게 작은 [기부](https://github.com/terra-rebirth/crypto-bot/blob/master/DONATIONS.md)를 하실 수 있습니다.
 
 ## 면책 조항
 

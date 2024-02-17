@@ -349,7 +349,7 @@ The detailed document for buy configuration available here.
 
 ## Donations
 
-如果你觉得这个项目对你有帮助，欢迎你给开发者一个小小的[捐赠](https://github.com/terra-rebirth/cypto-bot/blob/main/DONATIONS.md)
+如果你觉得这个项目对你有帮助，欢迎你给开发者一个小小的[捐赠](https://github.com/terra-rebirth/crypto-bot/blob/master/DONATIONS.md)
 
 ## 免责声明
 
