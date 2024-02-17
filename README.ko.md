@@ -16,7 +16,7 @@
 
 이 프로젝트는 제 코드를 테스트 하기 위한 단순한 테스트 프로젝트 입니다.
 
-**최신 업데이트 정보는 [README.md](https://github.com/chrisleekr/binance-trading-bot#binance-trading-bot)에 서 확인 가능합니다. 이 페이지는 한국어로 프로그램에 대한 설명만 적혀있습니다.**
+**최신 업데이트 정보는 [README.md](https://github.com/terra-rebirth/crypto-bot#crypto-bot)에 서 확인 가능합니다. 이 페이지는 한국어로 프로그램에 대한 설명만 적혀있습니다.**
 
 ## 경고
 
