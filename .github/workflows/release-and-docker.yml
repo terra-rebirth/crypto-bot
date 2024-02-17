@@ -20,6 +20,7 @@ jobs:
           draft: true
           prerelease: false
           generate_release_notes: true
+          token: ${{ secrets.GIT_CI_PASSWORD }}
 
   docker-images:
     name: Build/Push production docker image

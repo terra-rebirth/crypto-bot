@@ -31,8 +31,7 @@ jobs:
           git push
           git pull --rebase origin main
           git push origin $PACKAGE_VERSION
-          echo "PACKAGE_VERSION=$PACKAGE_VERSION" >> "$GITHUB_ENV"
-          echo "::set-output name=PACKAGE_VERSION::$PACKAGE_VERSION"
+          echo "PACKAGE_VERSION=$PACKAGE_VERSION" >> $GITHUB_OUTPUT
       - name: Trigger release workflow
         uses: peter-evans/repository-dispatch@v1
         with:
