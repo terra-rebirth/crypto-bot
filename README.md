@@ -28,8 +28,12 @@ incurred directly or indirectly by using this code. Read
 [disclaimer](#disclaimer) before using this code.**
 
 ## Release
+<<<<<<< HEAD
 ### [Cripto-bot release version: v0.0.118 dated: Fri Feb 16 16:14:20 UTC 2024](https://github.com/terra-rebirth/crypto-bot/releases/tag/v0.0.118) 
 ### [Cripto-bot release version:v0.0.117 dated:Fri Feb 16 16:11:51 UTC 2024](https://github.com/terra-rebirth/crypto-bot/releases/tag/v0.0.117) 
+=======
+**[# Cripto-bot release version:v0.0.117 dated:Fri Feb 16 16:11:51 UTC 2024](https://github.com/terra-rebirth/crypto-bot/releases/tag/v0.0.117)
+>>>>>>> 6aa735e (skip ci)
 
 
 **Before updating the bot, make sure to record the last buy price in the note. It may lose the configuration or last buy price records.**
