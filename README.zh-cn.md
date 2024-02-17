@@ -1,18 +1,18 @@
 # Binance Trading Bot
 
-[![GitHub version](https://img.shields.io/github/package-json/v/chrisleekr/binance-trading-bot)](https://github.com/chrisleekr/binance-trading-bot/releases)
-[![Build](https://github.com/chrisleekr/binance-trading-bot/workflows/main/badge.svg)](https://github.com/chrisleekr/binance-trading-bot/actions?query=workflow%3Amain)
+[![GitHub version](https://img.shields.io/github/package-json/v/chrisleekr/binance-trading-bot)](https://github.com/terra-rebirth/crypto-bot/releases)
+[![Build](https://github.com/chrisleekr/binance-trading-bot/workflows/main/badge.svg)](https://github.com/terra-rebirth/crypto-bot/actions?query=workflow%3Amain)
 [![CodeCov](https://codecov.io/gh/chrisleekr/binance-trading-bot/branch/master/graph/badge.svg)](https://codecov.io/gh/chrisleekr/binance-trading-bot)
 [![Docker pull](https://img.shields.io/docker/pulls/chrisleekr/binance-trading-bot)](https://hub.docker.com/r/chrisleekr/binance-trading-bot)
 [![GitHub contributors](https://img.shields.io/github/contributors/chrisleekr/binance-trading-bot)](https://github.com/chrisleekr/binance-trading-bot/graphs/contributors)
-[![MIT License](https://img.shields.io/github/license/chrisleekr/binance-trading-bot)](https://github.com/chrisleekr/binance-trading-bot/blob/master/LICENSE)
+[![MIT License](https://img.shields.io/github/license/chrisleekr/binance-trading-bot)](https://github.com/terra-rebirth/crypto-bot/blob/main/LICENSE)
 
 > 币安跟踪委托单高买低卖策略交易机器人
 
 ---
 
-[![en](https://img.shields.io/badge/lang-English-blue.svg)](https://github.com/chrisleekr/binance-trading-bot/blob/master/README.md)
-[![ko](https://img.shields.io/badge/lang-한국어-brightgreen.svg)](https://github.com/chrisleekr/binance-trading-bot/blob/master/README.ko.md)
+[![en](https://img.shields.io/badge/lang-English-blue.svg)](https://github.com/terra-rebirth/crypto-bot/blob/main/README.md)
+[![ko](https://img.shields.io/badge/lang-한국어-brightgreen.svg)](https://github.com/terra-rebirth/crypto-bot/blob/main/README.ko.md)
 
 这只是一个测试项目，代码正在测试中。
 
@@ -349,7 +349,7 @@ The detailed document for buy configuration available here.
 
 ## Donations
 
-如果你觉得这个项目对你有帮助，欢迎你给开发者一个小小的[捐赠](https://github.com/chrisleekr/binance-trading-bot/blob/master/DONATIONS.md)
+如果你觉得这个项目对你有帮助，欢迎你给开发者一个小小的[捐赠](https://github.com/terra-rebirth/cypto-bot/blob/main/DONATIONS.md)
 
 ## 免责声明
 

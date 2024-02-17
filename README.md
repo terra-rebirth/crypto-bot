@@ -3,19 +3,19 @@
 [![Stand With Ukraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner2-direct.svg)](https://war.ukraine.ua)
 
 
-[![GitHub version](https://img.shields.io/github/package-json/v/chrisleekr/binance-trading-bot)](https://github.com/chrisleekr/binance-trading-bot/releases)
-[![Build](https://github.com/chrisleekr/binance-trading-bot/workflows/Push/badge.svg)](https://github.com/chrisleekr/binance-trading-bot/actions?query=workflow%3APush)
+[![GitHub version](https://img.shields.io/github/package-json/v/chrisleekr/binance-trading-bot)](https://github.com/terra-rebirth/crypto-bot/releases)
+[![Build](https://github.com/chrisleekr/binance-trading-bot/workflows/Push/badge.svg)](https://github.com/terra-rebirth/crypto-bot/actions?query=workflow%3APush)
 [![CodeCov](https://codecov.io/gh/chrisleekr/binance-trading-bot/branch/master/graph/badge.svg)](https://codecov.io/gh/chrisleekr/binance-trading-bot)
 [![Docker pull](https://img.shields.io/docker/pulls/chrisleekr/binance-trading-bot)](https://hub.docker.com/r/chrisleekr/binance-trading-bot)
 [![GitHub contributors](https://img.shields.io/github/contributors/chrisleekr/binance-trading-bot)](https://github.com/chrisleekr/binance-trading-bot/graphs/contributors)
-[![MIT License](https://img.shields.io/github/license/chrisleekr/binance-trading-bot)](https://github.com/chrisleekr/binance-trading-bot/blob/master/LICENSE)
+[![MIT License](https://img.shields.io/github/license/chrisleekr/binance-trading-bot)](https://github.com/terra-rebirth/crypto-bot/blob/main/LICENSE)
 
 > Automated Binance trading bot with trailing buy/sell strategy
 
 ---
 
-[![ko](https://img.shields.io/badge/lang-한국어-brightgreen.svg)](https://github.com/chrisleekr/binance-trading-bot/blob/master/README.ko.md)
-[![中文](https://img.shields.io/badge/lang-中文-blue.svg)](https://github.com/chrisleekr/binance-trading-bot/blob/master/README.zh-cn.md)
+[![ko](https://img.shields.io/badge/lang-한국어-brightgreen.svg)](https://github.com/terra-rebirth/crypto-bot/blob/main/README.ko.md)
+[![中文](https://img.shields.io/badge/lang-中文-blue.svg)](https://github.com/terra-rebirth/crypto-bot/blob/main/README.zh-cn.md)
 
 This is a test project. I am just testing my code.
 
@@ -336,7 +336,7 @@ Or use the frontend to adjust configurations after launching the application.
    docker build -t terrarebirth/crypto-bot:latest .
    ```
 
-3. Open browser `http://0.0.0.0:8080` to see the frontend
+3. Open browser `http://0.0.0.0:8088` to see the frontend
 
    - When launching the application, it will notify public URL to the Slack.
    - If you have any issue with the bot, you can check the log to find out what happened with the bot. Please take a look [Troubleshooting](https://github.com/chrisleekr/binance-trading-bot/wiki/Troubleshooting)
@@ -374,25 +374,25 @@ Or use the frontend to adjust configurations after launching the application.
 ## Changes & Todo
 
 Please refer
-[CHANGELOG.md](https://github.com/chrisleekr/binance-trading-bot/blob/master/CHANGELOG.md)
+[CHANGELOG.md](https://github.com/terra-rebirth/crypto-bot/blob/main/CHANGELOG.md)
 to view the past changes.
 
 - [ ] Develop simple setup screen for secrets
-- [ ] Allow to execute stop-loss before buy action - [#299](https://github.com/chrisleekr/binance-trading-bot/issues/299)
-- [ ] Improve sell strategy with conditional stop price percentage based on the profit percentage - [#94](https://github.com/chrisleekr/binance-trading-bot/issues/94)
-- [ ] Add sudden drop buy strategy - [#67](https://github.com/chrisleekr/binance-trading-bot/issues/67)
-- [ ] Manage setting profiles (save/change/load?/export?) - [#151](https://github.com/chrisleekr/binance-trading-bot/issues/151)
-- [ ] Improve notifications by supporting Apprise - [#106](https://github.com/chrisleekr/binance-trading-bot/issues/106)
-- [ ] Support cool time after hitting the lowest price before buy - [#105](https://github.com/chrisleekr/binance-trading-bot/issues/105)
-- [ ] Reset global configuration to initial configuration - [#97](https://github.com/chrisleekr/binance-trading-bot/issues/97)
-- [ ] Support multilingual frontend - [#56](https://github.com/chrisleekr/binance-trading-bot/issues/56)
-- [ ] Non linear stop price and chase function - [#246](https://github.com/chrisleekr/binance-trading-bot/issues/246)
-- [ ] Support STOP-LOSS configuration per grid trade for selling - [#261](https://github.com/chrisleekr/binance-trading-bot/issues/261)
+- [ ] Allow to execute stop-loss before buy action - [#299](https://github.com/terra-rebirth/crypto-bot/issues/299)
+- [ ] Improve sell strategy with conditional stop price percentage based on the profit percentage - [#94](https://github.com/terra-rebirth/crypto-bot/issues/94)
+- [ ] Add sudden drop buy strategy - [#67](https://github.com/terra-rebirth/crypto-bot/issues/67)
+- [ ] Manage setting profiles (save/change/load?/export?) - [#151](https://github.com/terra-rebirth/crypto-bot/issues/151)
+- [ ] Improve notifications by supporting Apprise - [#106](https://github.com/terra-rebirth/crypto-bot/issues/106)
+- [ ] Support cool time after hitting the lowest price before buy - [#105](https://github.com/terra-rebirth/crypto-bot/issues/105)
+- [ ] Reset global configuration to initial configuration - [#97](https://github.com/terra-rebirth/crypto-bot/issues/97)
+- [ ] Support multilingual frontend - [#56](https://github.com/terra-rebirth/crypto-bot/issues/56)
+- [ ] Non linear stop price and chase function - [#246](https://github.com/terra-rebirth/crypto-bot/issues/246)
+- [ ] Support STOP-LOSS configuration per grid trade for selling - [#261](https://github.com/terra-rebirth/crypto-bot/issues/261)
 
 ## Donations
 
 If you find this project helpful, feel free to make a small
-[donation](https://github.com/chrisleekr/binance-trading-bot/blob/master/DONATIONS.md)
+[donation](https://github.com/terra-rebirth/crypto-bot/blob/master/DONATIONS.md)
 to the developer.
 
 ## Acknowledgments
