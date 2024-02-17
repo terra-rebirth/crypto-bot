@@ -1,6 +1,6 @@
 {
   "name": "crypto-bot",
-  "version": "0.0.121",
+  "version": "0.0.122",
   "description": "Binance Auto Trading Bot",
   "scripts": {
     "prepare": "husky install",
