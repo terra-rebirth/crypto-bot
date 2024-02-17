@@ -3,11 +3,11 @@
 [![Stand With Ukraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner2-direct.svg)](https://war.ukraine.ua)
 
 
-[![GitHub version](https://img.shields.io/github/package-json/v/chrisleekr/binance-trading-bot)](https://github.com/terra-rebirth/crypto-bot/releases)
-[![Build](https://github.com/chrisleekr/binance-trading-bot/workflows/Push/badge.svg)](https://github.com/terra-rebirth/crypto-bot/actions?query=workflow%3APush)
-[![CodeCov](https://codecov.io/gh/chrisleekr/binance-trading-bot/branch/master/graph/badge.svg)](https://codecov.io/gh/chrisleekr/binance-trading-bot)
-[![Docker pull](https://img.shields.io/docker/pulls/chrisleekr/binance-trading-bot)](https://hub.docker.com/r/chrisleekr/binance-trading-bot)
-[![GitHub contributors](https://img.shields.io/github/contributors/chrisleekr/binance-trading-bot)](https://github.com/chrisleekr/binance-trading-bot/graphs/contributors)
+[![GitHub version](https://img.shields.io/github/package-json/v/terra-rebirth/crypto-bot)](https://github.com/terra-rebirth/crypto-bot/releases)
+[![Build](https://github.com/terra-rebirth/crypto-bot/workflows/Push/badge.svg)](https://github.com/terra-rebirth/crypto-bot/actions?query=workflow%3APush)
+[![CodeCov](https://codecov.io/gh/terra-rebirth/crypto-bot/branch/master/graph/badge.svg)](https://codecov.io/gh/terra-rebirth/crypto-bot)
+[![Docker pull](https://img.shields.io/docker/pulls/terrarebirth/crypto-bot)](https://hub.docker.com/r/terrarebirth/crypto-bot)
+[![GitHub contributors](https://img.shields.io/github/contributors/terra-rebirth/crypto-bot)](https://github.com/terra-rebirth/crypto-bot/graphs/contributors)
 [![MIT License](https://img.shields.io/github/license/chrisleekr/binance-trading-bot)](https://github.com/terra-rebirth/crypto-bot/blob/main/LICENSE)
 
 > Automated Binance trading bot with trailing buy/sell strategy
@@ -28,15 +28,6 @@ incurred directly or indirectly by using this code. Read
 [disclaimer](#disclaimer) before using this code.**
 
 ## Release
-**[* Cripto-bot release version: v0.0.126 dated: Sat Feb 17 13:22:43 UTC 2024](https://github.com/terra-rebirth/crypto-bot/releases/tag/v0.0.126)** 
-
-**[* Cripto-bot release version: v0.0.125 dated: Sat Feb 17 13:16:32 UTC 2024](https://github.com/terra-rebirth/crypto-bot/releases/tag/v0.0.125)** 
-
-**[* Cripto-bot release version: v0.0.124 dated: Sat Feb 17 13:06:14 UTC 2024](https://github.com/terra-rebirth/crypto-bot/releases/tag/v0.0.124)** 
-
-**[* Cripto-bot release version: v0.0.123 dated: Sat Feb 17 12:49:29 UTC 2024](https://github.com/terra-rebirth/crypto-bot/releases/tag/v0.0.123)** 
-
-**[* Cripto-bot release version: v0.0.122 dated: Sat Feb 17 03:24:40 UTC 2024](https://github.com/terra-rebirth/crypto-bot/releases/tag/v0.0.122)**
 
 **Before updating the bot, make sure to record the last buy price in the note. It may lose the configuration or last buy price records.**
 

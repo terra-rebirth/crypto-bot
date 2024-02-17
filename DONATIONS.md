@@ -11,5 +11,5 @@ The donated funds will be used for testing the bot or buying gifts for my wife, 
 
 | Cryptocurrencies                                              | Network                   | Address                                                                                           |
 | ------------------------------------------------------------- | ------------------------- | ------------------------------------------------------------------------------------------------- |
-| ![Donate BNB](https://img.shields.io/badge/Donate-BNB-blue)   | Binance Smart Chain (BSC) | `0x606321894040F9A9C911cB7CCE3Cd2f609F6aafD`                                                      |
-| ![Donate CAKE](https://img.shields.io/badge/Donate-CAKE-blue) | Binance Smart Chain (BSC) | `0x606321894040F9A9C911cB7CCE3Cd2f609F6aafD`                                                      |
+| ![Donate BNB](https://img.shields.io/badge/Donate-BNB-blue)   | Binance Smart Chain (BSC20) | `0x606321894040F9A9C911cB7CCE3Cd2f609F6aafD`                                                      |
+| ![Donate ETH](https://img.shields.io/badge/Donate-ETH-blue) | Ethereum (ECR20) | `0x606321894040F9A9C911cB7CCE3Cd2f609F6aafD`                                                      |
