@@ -7,3 +7,6 @@
 
 **[* Cripto-bot release version: v0.0.124 dated: Sat Feb 17 13:06:14 UTC 2024](https://github.com/terra-rebirth/crypto-bot/releases/tag/v0.0.124)**
 
+
+**[* Cripto-bot release version: v0.0.125 dated: Sat Feb 17 13:16:32 UTC 2024](https://github.com/terra-rebirth/crypto-bot/releases/tag/v0.0.125)**
+

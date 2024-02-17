@@ -28,6 +28,8 @@ incurred directly or indirectly by using this code. Read
 [disclaimer](#disclaimer) before using this code.**
 
 ## Release
+**[* Cripto-bot release version: v0.0.125 dated: Sat Feb 17 13:16:32 UTC 2024](https://github.com/terra-rebirth/crypto-bot/releases/tag/v0.0.125)** 
+
 **[* Cripto-bot release version: v0.0.124 dated: Sat Feb 17 13:06:14 UTC 2024](https://github.com/terra-rebirth/crypto-bot/releases/tag/v0.0.124)** 
 
 **[* Cripto-bot release version: v0.0.123 dated: Sat Feb 17 12:49:29 UTC 2024](https://github.com/terra-rebirth/crypto-bot/releases/tag/v0.0.123)** 
