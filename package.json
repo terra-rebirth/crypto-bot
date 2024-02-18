@@ -135,7 +135,7 @@
       }
     },
     "fakeTimers": {
-      "enableGlobally": true
+      "enableGlobally": false
     }
   },
   "lint-staged": {
