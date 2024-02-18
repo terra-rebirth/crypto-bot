@@ -32,10 +32,11 @@ describe('trailingTrade', () => {
   let mockSaveDataToCache;
   let mockErrorHandlerWrapper;
 
-  jest.useFakeTimers();
+
 
   beforeEach(() => {
     jest.clearAllMocks().resetModules();
+    jest.useFakeTimers();
 
     mockLoggerInfo = jest.fn();
     mockSlackSendMessage = jest.fn().mockResolvedValue(true);
@@ -66,6 +67,11 @@ describe('trailingTrade', () => {
     jest.mock('../../error-handler', () => ({
       errorHandlerWrapper: mockErrorHandlerWrapper
     }));
+  });
+
+  afterEach(() => {
+    jest.clearAllTimers();
+    jest.useRealTimers();
   });
 
   describe('without any error', () => {

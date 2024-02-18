@@ -35,6 +35,11 @@ describe('orders.js', () => {
       jest.useFakeTimers();
     });
 
+    afterEach(() => {
+      jest.clearAllTimers();
+      jest.useRealTimers();
+    });
+
     describe('when open orders are retrieved', () => {
       beforeEach(async () => {
         cacheMock.hset = jest.fn().mockResolvedValue(true);
