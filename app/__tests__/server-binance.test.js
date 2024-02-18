@@ -35,7 +35,6 @@ describe('server-binance', () => {
 
   beforeEach(async () => {
     jest.clearAllMocks().resetModules();
-    jest.useFakeTimers();
 
     jest.mock('config');
     jest.mock('../cronjob');
@@ -86,7 +85,6 @@ describe('server-binance', () => {
 
   afterEach(() => {
     jest.clearAllTimers();
-    jest.useRealTimers();
   });
 
   describe('when the bot is running live mode', () => {
