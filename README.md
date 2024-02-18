@@ -4,7 +4,7 @@
 
 
 [![GitHub version](https://img.shields.io/github/package-json/v/terra-rebirth/crypto-bot)](https://github.com/terra-rebirth/crypto-bot/releases)
-[![Release](https://github.com/terra-rebirth/crypto-bot/actions/workflows/release-and-docker.yml/badge.svg)](https://github.com/terra-rebirth/crypto-bot/actions/workflows/release-and-docker.yml)
+[![Release](https://img.shields.io/badge/Release-black.svg)](https://github.com/terra-rebirth/crypto-bot/actions/workflows/release-and-docker.yml)
 [![Build](https://github.com/terra-rebirth/crypto-bot/workflows/Push/badge.svg)](https://github.com/terra-rebirth/crypto-bot/actions?query=workflow%3APush)
 [![codecov](https://codecov.io/gh/terra-rebirth/crypto-bot/graph/badge.svg?token=41JP5CK5AT)](https://codecov.io/gh/terra-rebirth/crypto-bot)
 [![Docker pull](https://img.shields.io/docker/pulls/terrarebirth/crypto-bot)](https://hub.docker.com/r/terrarebirth/crypto-bot)
