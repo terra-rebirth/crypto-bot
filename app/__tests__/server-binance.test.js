@@ -33,9 +33,17 @@ describe('server-binance', () => {
   let mockSlack;
   let config;
 
+  beforeAll(() => {
+    Object.defineProperty(performance, "now", {
+      value: jest.fn(),
+      configurable: true,
+      writable: true
+    });
+    jest.useFakeTimers();
+  });
+
   beforeEach(async () => {
     jest.clearAllMocks().resetModules();
-    jest.useFakeTimers();
 
     jest.mock('config');
     jest.mock('../cronjob');
