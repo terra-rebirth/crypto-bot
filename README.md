@@ -314,6 +314,7 @@ Or use the frontend to adjust configurations after launching the application.
    If want production/live mode, then use the latest build image from DockerHub:
 
    ```bash
+   # --pull docker from docker.hub
    docker-compose -f docker-compose.server.yml pull
    # --start run
    docker-compose -f docker-compose.server.yml up -d
@@ -323,17 +324,25 @@ Or use the frontend to adjust configurations after launching the application.
 
    Or if want development/test mode, then run below commands:
 
+    ```bash
+   # --delete all local image
+   docker images
+   # --pull docker from docker.hub
+   docker-compose -f docker-compose.dev.yml pull
+   # --start run
+   docker-compose -f docker-compose.dev.yml up -d
+   # --stop run
+   docker-compose -f docker-compose.dev.yml down
+   ```
+  Or if want build for developmet/test mode, run below commands:
+
    ```bash
    # --start run
    docker-compose up -d --build
    # --stop run
-     docker-compose down
+  docker-compose down
    ```
-
-   ```
-   docker-compose -f docker-compose.db.yml up -d --build
-   ```
-
+  Or if want to build to tag from ./Dockerfile
    ```
    docker build -t terrarebirth/crypto-bot:latest .
    ```
