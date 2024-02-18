@@ -25,7 +25,7 @@ describe('orders.js', () => {
 
   beforeEach(async () => {
     jest.clearAllMocks().resetModules();
-
+    jest.useFakeTimers();
 
     const { binance, logger, cache, mongo } = require('../../helpers');
     binanceMock = binance;
