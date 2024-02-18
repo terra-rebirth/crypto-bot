@@ -12,18 +12,21 @@ describe('server-cronjob', () => {
 
   describe('cronjob running fine', () => {
     beforeAll(() => {
-      Object.defineProperty(performance, "now", {
-        value: jest.fn(),
+      Object.defineProperty(global, 'performance', {
+        value: {
+          now: jest.fn()
+        },
         configurable: true,
         writable: true
       });
-      // jest.useFakeTimers();
+      jest.useFakeTimers();
+    });
+
+    afterAll(() => {
     });
 
     beforeEach(async () => {
       jest.clearAllMocks().resetModules();
-      // jest.useFakeTimers()
-
       jest.mock('config');
 
       cache.hset = jest.fn().mockResolvedValue(true);

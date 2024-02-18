@@ -44,13 +44,10 @@ describe('trailingTrade', () => {
   });
 
   afterAll(() => {
-    // Restore the original implementation of performance.now()
-    // global.performance.now.mockRestore();
   });
 
   beforeEach(() => {
     jest.clearAllMocks().resetModules();
-    //jest.useFakeTimers();
 
     mockLoggerInfo = jest.fn();
     mockSlackSendMessage = jest.fn().mockResolvedValue(true);

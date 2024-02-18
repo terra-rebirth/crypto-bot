@@ -34,17 +34,21 @@ describe('server-binance', () => {
   let config;
 
   beforeAll(() => {
-    Object.defineProperty(performance, "now", {
-      value: jest.fn(),
+    Object.defineProperty(global, 'performance', {
+      value: {
+        now: jest.fn()
+      },
       configurable: true,
       writable: true
     });
-    // jest.useFakeTimers();
+    jest.useFakeTimers();
+  });
+
+  afterAll(() => {
   });
 
   beforeEach(async () => {
     jest.clearAllMocks().resetModules();
-
     jest.mock('config');
     jest.mock('../cronjob');
 
