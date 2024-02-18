@@ -18,7 +18,7 @@ describe('local-tunnel/configure.js', () => {
       configurable: true,
       writable: true
     });
-    jest.useFakeTimers();
+
   });
 
   afterAll(() => {
@@ -26,6 +26,7 @@ describe('local-tunnel/configure.js', () => {
 
   beforeEach(() => {
     jest.clearAllMocks().resetModules();
+    jest.useFakeTimers();
     const { logger, cache, slack } = require('../../../helpers');
 
     mockLogger = logger;

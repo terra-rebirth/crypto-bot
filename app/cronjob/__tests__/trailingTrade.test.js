@@ -40,7 +40,6 @@ describe('trailingTrade', () => {
       configurable: true,
       writable: true
     });
-    jest.useFakeTimers();
   });
 
   afterAll(() => {
@@ -48,7 +47,7 @@ describe('trailingTrade', () => {
 
   beforeEach(() => {
     jest.clearAllMocks().resetModules();
-
+    jest.useFakeTimers();
     mockLoggerInfo = jest.fn();
     mockSlackSendMessage = jest.fn().mockResolvedValue(true);
 
