@@ -9,7 +9,7 @@
 [![codecov](https://codecov.io/gh/terra-rebirth/crypto-bot/graph/badge.svg?token=41JP5CK5AT)](https://codecov.io/gh/terra-rebirth/crypto-bot)
 [![Docker pull](https://img.shields.io/docker/pulls/terrarebirth/crypto-bot)](https://hub.docker.com/r/terrarebirth/crypto-bot)
 [![GitHub contributors](https://img.shields.io/github/contributors/terra-rebirth/crypto-bot)](https://github.com/terra-rebirth/crypto-bot/graphs/contributors)
-[![MIT License](https://img.shields.io/github/license/chrisleekr/binance-trading-bot)](https://github.com/terra-rebirth/crypto-bot/blob/main/LICENSE)
+[![MIT License](https://img.shields.io/github/license/terra-rebirth/crypto-bot)](https://github.com/terra-rebirth/crypto-bot/blob/main/LICENSE)
 
 > Automated Binance trading bot with trailing buy/sell strategy
 
