@@ -35,6 +35,7 @@ describe('trailingTrade', () => {
 
 
   beforeEach(() => {
+    jest.clearAllTimers();
     jest.clearAllMocks().resetModules();
     jest.useFakeTimers();
 

@@ -11,6 +11,7 @@ describe('local-tunnel/configure.js', () => {
   let mockLocalTunnelOn;
 
   beforeEach(() => {
+    jest.clearAllTimers();
     jest.clearAllMocks().resetModules();
     jest.useFakeTimers();
 
@@ -43,14 +44,14 @@ describe('local-tunnel/configure.js', () => {
     mockCache.hset = jest.fn().mockResolvedValue(true);
     mockCache.hdel = jest.fn().mockResolvedValue(true);
 
-    mockLocalTunnelOn = jest.fn().mockImplementation((_event, _cb) => {});
+    mockLocalTunnelOn = jest.fn().mockImplementation((_event, _cb) => { });
   });
-  
+
   afterEach(() => {
     jest.clearAllTimers();
     jest.useRealTimers();
   });
-  
+
   describe('when local tunnel is disabled', () => {
     beforeEach(async () => {
       config.get = jest.fn(key => {
@@ -200,7 +201,7 @@ describe('local-tunnel/configure.js', () => {
 
   describe(
     `when local tunnel url is cached and new url is same. ` +
-      `But still not configured domain (notifyDebug enabled)`,
+    `But still not configured domain (notifyDebug enabled)`,
     () => {
       beforeEach(async () => {
         config.get = jest.fn(key => {
@@ -226,7 +227,7 @@ describe('local-tunnel/configure.js', () => {
           return '';
         });
 
-        mockLocalTunnelOn = jest.fn().mockImplementation((_event, _cb) => {});
+        mockLocalTunnelOn = jest.fn().mockImplementation((_event, _cb) => { });
 
         jest.mock('localtunnel', () =>
           jest.fn().mockImplementation(() => ({
@@ -283,7 +284,7 @@ describe('local-tunnel/configure.js', () => {
         return '';
       });
 
-      mockLocalTunnelOn = jest.fn().mockImplementation((_event, _cb) => {});
+      mockLocalTunnelOn = jest.fn().mockImplementation((_event, _cb) => { });
 
       jest.mock('localtunnel', () =>
         jest.fn().mockImplementation(() => ({
@@ -352,7 +353,7 @@ describe('local-tunnel/configure.js', () => {
 
       await configureLocalTunnel(mockLogger);
 
-      mockLocalTunnelOn = jest.fn().mockImplementation((_event, _cb) => {});
+      mockLocalTunnelOn = jest.fn().mockImplementation((_event, _cb) => { });
 
       jest.mock('localtunnel', () =>
         jest.fn().mockImplementation(() => {

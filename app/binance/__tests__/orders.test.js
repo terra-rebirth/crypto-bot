@@ -32,6 +32,8 @@ describe('orders.js', () => {
 
   describe('syncOpenOrders', () => {
     beforeEach(() => {
+      jest.clearAllTimers();
+      jest.clearAllMocks().resetModules();
       jest.useFakeTimers();
     });
 
