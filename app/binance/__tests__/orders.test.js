@@ -11,15 +11,21 @@ describe('orders.js', () => {
   let mockErrorHandlerWrapper;
 
   beforeAll(() => {
-    Object.defineProperty(performance, "now", {
-      value: jest.fn(),
+    Object.defineProperty(global, 'performance', {
+      value: {
+        now: jest.fn()
+      },
       configurable: true,
-      writable: true // Set writable to true
+      writable: true
     });
+  });
+
+  afterAll(() => {
   });
 
   beforeEach(async () => {
     jest.clearAllMocks().resetModules();
+
 
     const { binance, logger, cache, mongo } = require('../../helpers');
     binanceMock = binance;
@@ -42,6 +48,7 @@ describe('orders.js', () => {
 
     beforeEach(() => {
       jest.clearAllMocks().resetModules();
+      jest.useFakeTimers();
     });
 
     describe('when open orders are retrieved', () => {
