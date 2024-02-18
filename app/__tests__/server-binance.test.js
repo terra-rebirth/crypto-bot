@@ -33,6 +33,12 @@ describe('server-binance', () => {
   let mockSlack;
   let config;
 
+  Object.defineProperty(performance, "now", {
+    value: jest.fn(),
+    configurable: true,
+    writable: true
+  });
+
   beforeAll(() => {
     jest.useFakeTimers();
   });
