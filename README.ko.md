@@ -1,11 +1,12 @@
 # 바이낸스 자동 매매 트레이딩 봇
 
-[![GitHub version](https://img.shields.io/github/package-json/v/chrisleekr/binance-trading-bot)](https://github.com/terra-rebirth/crypto-bot/releases)
-[![Build](https://github.com/chrisleekr/binance-trading-bot/workflows/Push/badge.svg)](https://github.com/terra-rebirth/crypto-bot/actions?query=workflow%3APush)
-[![CodeCov](https://codecov.io/gh/chrisleekr/binance-trading-bot/branch/master/graph/badge.svg)](https://codecov.io/gh/chrisleekr/binance-trading-bot)
-[![Docker pull](https://img.shields.io/docker/pulls/chrisleekr/binance-trading-bot)](https://hub.docker.com/r/chrisleekr/binance-trading-bot)
-[![GitHub contributors](https://img.shields.io/github/contributors/chrisleekr/binance-trading-bot)](https://github.com/chrisleekr/binance-trading-bot/graphs/contributors)
-[![MIT License](https://img.shields.io/github/license/chrisleekr/binance-trading-bot)](https://github.com/terra-rebirth/crypto-bot/blob/main/LICENSE)
+[![GitHub version](https://img.shields.io/github/package-json/v/terra-rebirth/crypto-bot)](https://github.com/terra-rebirth/crypto-bot/releases)
+[![Release & Docker](https://github.com/terra-rebirth/crypto-bot/actions/workflows/release-and-docker.yml/badge.svg)](https://github.com/terra-rebirth/crypto-bot/actions/workflows/release-and-docker.yml)
+[![Build](https://github.com/terra-rebirth/crypto-bot/workflows/Push/badge.svg)](https://github.com/terra-rebirth/crypto-bot/actions?query=workflow%3APush)
+[![codecov](https://codecov.io/gh/terra-rebirth/crypto-bot/graph/badge.svg?token=41JP5CK5AT)](https://codecov.io/gh/terra-rebirth/crypto-bot)
+[![Docker pull](https://img.shields.io/docker/pulls/terrarebirth/crypto-bot)](https://hub.docker.com/r/terrarebirth/crypto-bot)
+[![GitHub contributors](https://img.shields.io/github/contributors/terra-rebirth/crypto-bot)](https://github.com/terra-rebirth/crypto-bot/graphs/contributors)
+[![MIT License](https://img.shields.io/github/license/terra-rebirth/crypto-bot)](https://github.com/terra-rebirth/crypto-bot/blob/main/LICENSE)
 
 > 추적 매수/매도 기법(Trailing buy/sell strategy)을 이용한 자동화된 바이낸스 자동매매 프로그램
 
