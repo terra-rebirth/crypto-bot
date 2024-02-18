@@ -34,7 +34,6 @@ describe('server-binance', () => {
   let config;
 
   beforeEach(async () => {
-    jest.clearAllTimers();
     jest.clearAllMocks().resetModules();
     jest.useFakeTimers();
 

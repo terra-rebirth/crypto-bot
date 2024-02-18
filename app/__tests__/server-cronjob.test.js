@@ -191,7 +191,6 @@ describe('server-cronjob', () => {
 
   describe('job is timeout', () => {
     beforeEach(async () => {
-      jest.clearAllTimers();
       jest.clearAllMocks().resetModules();
       jest.useFakeTimers();
       jest.mock('config');

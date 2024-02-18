@@ -11,7 +11,6 @@ describe('local-tunnel/configure.js', () => {
   let mockLocalTunnelOn;
 
   beforeEach(() => {
-    jest.clearAllTimers();
     jest.clearAllMocks().resetModules();
     jest.useFakeTimers();
 
