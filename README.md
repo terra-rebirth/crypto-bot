@@ -147,7 +147,7 @@ Then the bot will execute 2nd purchase for the coin. The last buy price will be 
 
 The detailed document for buy configuration available here.
 
-[https://github.com/chrisleekr/binance-trading-bot/wiki/Buy-Scenario](https://github.com/chrisleekr/binance-trading-bot/wiki/Buy-Scenario)
+[https://github.com/terra-rebirth/crypto-bot/wiki/Buy-Scenario](https://github.com/terra-rebirth/crypto-bot/wiki/Buy-Scenario)
 
 ### Sell Signal
 
@@ -248,9 +248,9 @@ The final profit would be
 
 The detailed document for buy configuration available here.
 
-[https://github.com/chrisleekr/binance-trading-bot/wiki/Sell-Scenario](https://github.com/chrisleekr/binance-trading-bot/wiki/Sell-Scenario)
+[https://github.com/terra-rebirth/crypto-bot/wiki/Sell-Scenario](https://github.com/terra-rebirth/crypto-bot/wiki/Sell-Scenario)
 
-### [Features](https://github.com/chrisleekr/binance-trading-bot/wiki/Features)
+### [Features](https://github.com/terra-rebirth/crypto-bot/wiki/Features)
 
 - Manual trade
 - Convert small balances to BNB
@@ -341,7 +341,7 @@ Or use the frontend to adjust configurations after launching the application.
 3. Open browser `http://0.0.0.0:8088` to see the frontend
 
    - When launching the application, it will notify public URL to the Slack.
-   - If you have any issue with the bot, you can check the log to find out what happened with the bot. Please take a look [Troubleshooting](https://github.com/chrisleekr/binance-trading-bot/wiki/Troubleshooting)
+   - If you have any issue with the bot, you can check the log to find out what happened with the bot. Please take a look [Troubleshooting](https://github.com/terra-rebirth/crypto-bot/wiki/Troubleshooting)
 
 ### Install via Stackfile
 
@@ -404,7 +404,7 @@ to the developer.
 
 ## Contributors
 
-Thanks to all contributors :heart: [Click to see our heroes](https://github.com/chrisleekr/binance-trading-bot/graphs/contributors)
+Thanks to all contributors :heart: [Click to see our heroes](https://github.com/terra-rebirth/crypto-bot/graphs/contributors)
 
 ## Disclaimer
 
