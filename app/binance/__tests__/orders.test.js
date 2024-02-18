@@ -46,11 +46,6 @@ describe('orders.js', () => {
 
   describe('syncOpenOrders', () => {
 
-    beforeEach(() => {
-      jest.clearAllMocks().resetModules();
-      //jest.useFakeTimers();
-    });
-
     describe('when open orders are retrieved', () => {
       beforeEach(async () => {
         cacheMock.hset = jest.fn().mockResolvedValue(true);
