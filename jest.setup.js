@@ -1,4 +1,5 @@
 process.env.TZ = 'UTC';
-const jestSetup = async () => {};
+const jestSetup = async () => {
+};
 
 module.exports = jestSetup;
