@@ -84,6 +84,11 @@ describe('server-binance', () => {
     jest.mock('../cronjob/trailingTradeHelper/queue', () => mockQueue);
   });
 
+  afterEach(() => {
+    jest.clearAllTimers();
+    jest.useRealTimers();
+  });
+
   describe('when the bot is running live mode', () => {
     describe('when the bot just started', () => {
       beforeEach(async () => {

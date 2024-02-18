@@ -235,6 +235,11 @@ describe('server-cronjob', () => {
       });
     });
 
+    afterEach(() => {
+      jest.clearAllTimers();
+      jest.useRealTimers();
+    });
+
     describe('when task is not running', () => {
       beforeEach(() => {
         mockTaskRunning = false;
