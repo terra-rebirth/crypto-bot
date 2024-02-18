@@ -32,11 +32,18 @@ describe('trailingTrade', () => {
   let mockSaveDataToCache;
   let mockErrorHandlerWrapper;
 
-
+  beforeAll(() => {
+    Object.defineProperty(performance, "now", {
+      value: jest.fn(),
+      configurable: true,
+      writable: true
+    });
+    jest.useFakeTimers();
+  });
 
   beforeEach(() => {
     jest.clearAllMocks().resetModules();
-    jest.useFakeTimers();
+    //jest.useFakeTimers();
 
     mockLoggerInfo = jest.fn();
     mockSlackSendMessage = jest.fn().mockResolvedValue(true);

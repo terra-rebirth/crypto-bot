@@ -10,6 +10,15 @@ describe('orders.js', () => {
   let mockGetOpenOrdersFromAPI;
   let mockErrorHandlerWrapper;
 
+  beforeAll(() => {
+    Object.defineProperty(performance, "now", {
+      value: jest.fn(),
+      configurable: true,
+      writable: true
+    });
+    jest.useFakeTimers();
+  });
+
   beforeEach(async () => {
     jest.clearAllMocks().resetModules();
 
@@ -31,13 +40,9 @@ describe('orders.js', () => {
   });
 
   describe('syncOpenOrders', () => {
-    beforeEach(() => {
-      // jest.clearAllMocks().resetModules();
-      // jest.useFakeTimers();
-    });
 
-    afterEach(() => {
-      // jest.clearAllTimers();
+    beforeEach(() => {
+      jest.clearAllMocks().resetModules();
     });
 
     describe('when open orders are retrieved', () => {

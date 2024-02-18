@@ -11,9 +11,18 @@ describe('server-cronjob', () => {
   let mockExecuteTrailingTradeIndicator;
 
   describe('cronjob running fine', () => {
+    beforeAll(() => {
+      Object.defineProperty(performance, "now", {
+        value: jest.fn(),
+        configurable: true,
+        writable: true
+      });
+      jest.useFakeTimers();
+    });
+
     beforeEach(async () => {
       jest.clearAllMocks().resetModules();
-      jest.useFakeTimers()
+      // jest.useFakeTimers()
 
       jest.mock('config');
 
