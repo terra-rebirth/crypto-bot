@@ -39,7 +39,7 @@ describe('server-binance', () => {
       configurable: true,
       writable: true
     });
-    jest.useFakeTimers();
+    // jest.useFakeTimers();
   });
 
   beforeEach(async () => {

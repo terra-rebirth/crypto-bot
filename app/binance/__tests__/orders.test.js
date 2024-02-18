@@ -14,9 +14,8 @@ describe('orders.js', () => {
     Object.defineProperty(performance, "now", {
       value: jest.fn(),
       configurable: true,
-      writable: true
+      writable: true // Set writable to true
     });
-    jest.useFakeTimers();
   });
 
   beforeEach(async () => {

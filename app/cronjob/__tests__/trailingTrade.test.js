@@ -36,9 +36,21 @@ describe('trailingTrade', () => {
     Object.defineProperty(performance, "now", {
       value: jest.fn(),
       configurable: true,
-      writable: true
+      writable: true // Set writable to true
     });
+    // Mock performance.now() using Jest's mocking capabilities
+    jest.spyOn(global.performance, 'now').mockImplementation(() => {
+      // Mock the return value of performance.now() if needed
+      return /* mock return value */;
+    });
+
+    // Optionally, you can set up Jest fake timers here
     jest.useFakeTimers();
+  });
+
+  afterAll(() => {
+    // Restore the original implementation of performance.now()
+    global.performance.now.mockRestore();
   });
 
   beforeEach(() => {

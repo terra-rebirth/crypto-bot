@@ -17,7 +17,7 @@ describe('server-cronjob', () => {
         configurable: true,
         writable: true
       });
-      jest.useFakeTimers();
+      // jest.useFakeTimers();
     });
 
     beforeEach(async () => {
