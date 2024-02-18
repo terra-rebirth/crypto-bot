@@ -45,7 +45,6 @@ describe('orders.js', () => {
   });
 
   describe('syncOpenOrders', () => {
-
     describe('when open orders are retrieved', () => {
       beforeEach(async () => {
         cacheMock.hset = jest.fn().mockResolvedValue(true);
