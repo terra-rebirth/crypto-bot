@@ -35,7 +35,7 @@ describe('server-binance', () => {
 
   beforeEach(async () => {
     jest.clearAllMocks().resetModules();
-    jest.useFakeTimers();
+    //jest.useFakeTimers();
 
     jest.mock('config');
     jest.mock('../cronjob');
