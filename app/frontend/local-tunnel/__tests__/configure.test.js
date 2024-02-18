@@ -10,11 +10,10 @@ describe('local-tunnel/configure.js', () => {
 
   let mockLocalTunnelOn;
 
-
+  jest.useFakeTimers();
 
   beforeEach(() => {
     jest.clearAllMocks().resetModules();
-    jest.useFakeTimers();
     const { logger, cache, slack } = require('../../../helpers');
 
     mockLogger = logger;
