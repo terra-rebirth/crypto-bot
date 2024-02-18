@@ -334,15 +334,16 @@ Or use the frontend to adjust configurations after launching the application.
    # --stop run
    docker-compose -f docker-compose.dev.yml down
    ```
-  Or if want build for developmet/test mode, run below commands:
+   Or if want build for developmet/test mode, run below commands:
 
    ```bash
    # --start run
    docker-compose up -d --build
    # --stop run
-  docker-compose down
+   docker-compose down
    ```
-  Or if want to build to tag from ./Dockerfile
+   Or if want to build to tag from ./Dockerfile
+
    ```
    docker build -t terrarebirth/crypto-bot:latest .
    ```
