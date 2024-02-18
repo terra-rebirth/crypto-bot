@@ -13,6 +13,8 @@ describe('server-cronjob', () => {
   describe('cronjob running fine', () => {
     beforeEach(async () => {
       jest.clearAllMocks().resetModules();
+      jest.useFakeTimers()
+
       jest.mock('config');
 
       cache.hset = jest.fn().mockResolvedValue(true);
