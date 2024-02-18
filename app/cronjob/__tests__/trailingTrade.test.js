@@ -33,18 +33,13 @@ describe('trailingTrade', () => {
   let mockErrorHandlerWrapper;
 
   beforeAll(() => {
-    const mockPerformanceNow = jest.fn();
-
-    // Mocking performance.now() using Object.defineProperty
     Object.defineProperty(global, 'performance', {
       value: {
-        now: mockPerformanceNow
+        now: jest.fn()
       },
       configurable: true,
-      writable: false // Making it read-only
+      writable: true
     });
-
-    // Setting up fake timers
     jest.useFakeTimers();
   });
 
