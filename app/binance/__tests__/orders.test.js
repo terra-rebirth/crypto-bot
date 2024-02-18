@@ -33,12 +33,11 @@ describe('orders.js', () => {
   describe('syncOpenOrders', () => {
     beforeEach(() => {
       jest.clearAllMocks().resetModules();
-      jest.useFakeTimers();
+      // jest.useFakeTimers();
     });
 
     afterEach(() => {
       jest.clearAllTimers();
-      jest.useRealTimers();
     });
 
     describe('when open orders are retrieved', () => {

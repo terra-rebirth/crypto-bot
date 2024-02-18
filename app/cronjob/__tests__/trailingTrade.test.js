@@ -36,7 +36,7 @@ describe('trailingTrade', () => {
 
   beforeEach(() => {
     jest.clearAllMocks().resetModules();
-    jest.useFakeTimers();
+    // jest.useFakeTimers();
 
     mockLoggerInfo = jest.fn();
     mockSlackSendMessage = jest.fn().mockResolvedValue(true);
