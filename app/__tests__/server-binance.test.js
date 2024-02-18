@@ -35,7 +35,7 @@ describe('server-binance', () => {
 
   beforeAll(() => {
     Object.defineProperty(performance, "now", {
-      value: jest.useFakeTimers(),
+      value: jest.fn(),
       configurable: true,
       writable: true
     });
