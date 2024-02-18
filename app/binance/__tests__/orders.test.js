@@ -119,7 +119,6 @@ describe('orders.js', () => {
         );
       });
     });
-
     describe('when openOrdersInterval is not empty', () => {
       beforeEach(async () => {
         cacheMock.hset = jest.fn().mockResolvedValue(true);
